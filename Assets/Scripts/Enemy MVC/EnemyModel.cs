@@ -38,7 +38,6 @@ namespace EnemyServices
 
         public Color enemyColor { get; set; }
 
-
         public EnemyModel(EnemyScriptableObject enemyData)
         {
             health = enemyData.health;
